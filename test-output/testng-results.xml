@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23185" started-at="2019-07-24T12:05:15Z" finished-at="2019-07-24T12:05:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23185" started-at="2019-07-24T12:05:15Z" finished-at="2019-07-24T12:05:38Z">
+      <class name="demoTest.loginPageDemoTest">
+        <test-method status="PASS" signature="NormalsetUp()[pri:0, instance:demoTest.loginPageDemoTest@5c30a9b0]" name="NormalsetUp" is-config="true" duration-ms="13883" started-at="2019-07-24T17:35:15Z" finished-at="2019-07-24T17:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NormalsetUp -->
+        <test-method status="PASS" signature="logIn_TC_1(java.lang.reflect.Method)[pri:1, instance:demoTest.loginPageDemoTest@5c30a9b0]" name="logIn_TC_1" duration-ms="7341" started-at="2019-07-24T17:35:29Z" finished-at="2019-07-24T17:35:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void demoTest.loginPageDemoTest.logIn_TC_1(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn_TC_1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demoTest.loginPageDemoTest@5c30a9b0]" name="tearDown" is-config="true" duration-ms="1217" started-at="2019-07-24T17:35:37Z" finished-at="2019-07-24T17:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demoTest.loginPageDemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
